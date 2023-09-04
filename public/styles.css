@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.quiz-container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.options .option {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button:active {
+    background-color: #222;
+    transform: scale(0.98);  /* subtle "pressed" effect */
+}
+
+.scores {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#user1-body {
+    background-color: #AED6F1; /* Light Blue */
+    color: #2C3E50; /* Off Black for Text */
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #EAF2F8; /* Slightly Lighter Blue for Contrast */
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#user1-body button {
+    background-color: #21618C; /* Dark Blue */
+    color: white;
+}
+
+#user1-body button:hover {
+    background-color: #3498db; /* Slightly Lighter Blue */
+}
+#user2-body {
+    background-color: #A2D9CE; /* Light Green */
+    color: #2C3E50; /* Off Black for Text */
+}
+
+#user2-body .quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E8F8F5; /* Slightly Lighter Green for Contrast */
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#user2-body button {
+    background-color: #138D75; /* Dark Green */
+    color: white;
+}
+
+#user2-body button:hover {
+    background-color: #28B463; /* Slightly Lighter Green */
+}
+/* Existing styles... */
+
+/* Styles for the Pass button */
+#passBtn {
+    background-color: #ff9999; /* Light Red color for the pass button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+#passBtn:hover {
+    background-color: #ff6666; /* Darker Red on hover */
+}
+
+#passBtn:disabled {
+    background-color: #e0e0e0; /* Grayish color when button is disabled */
+    color: #aaa;
+    cursor: not-allowed;
+}
+/* Add this to your CSS file */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Add this to your styles.css file */
+#submitBtn {
+    background-color: #4CAF50; /* Green color for the submit button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+#submitBtn:hover {
+    background-color: #45a049; /* Darker Green on hover */
+}
+
+#submitBtn:disabled {
+    background-color: #e0e0e0; /* Grayish color when button is disabled */
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+
+
+

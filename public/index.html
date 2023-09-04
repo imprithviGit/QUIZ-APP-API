@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Quiz App</title>
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            background-color: #f9f9f9;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+        .user-buttons {
+            margin-top: 20px;
+        }
+        .user-button {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background-color: #3498db;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 24px;
+            margin: 10px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .user-button:hover {
+            background-color: #2584c7;
+            transform: translateY(-3px);
+        }
+        .user-button:last-child {
+            background-color: #3ce7a8;
+        }
+        .user-button:last-child:hover {
+            background-color: #2dbb8a;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Quiz App</h1>
+    <p>Select a user to begin the quiz:</p>
+    <div class="user-buttons">
+        <a href="user1.html" class="user-button">User 1</a>
+        <a href="user2.html" class="user-button">User 2</a>
+    </div>
+</body>
+</html>
